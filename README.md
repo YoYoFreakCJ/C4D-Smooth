@@ -10,7 +10,7 @@ For each point the algorithm gets the average of all connected points. Apply sti
 ![image](https://github.com/YoYoFreakCJ/C4D-Smooth/assets/59722190/d1b24118-fd41-40dd-a4e3-7a810a20f3e7)
 
 # Usage
-Paste the two functions from Smooth.py into your script. You need a variable holding the geometry to smooth, then simply call:
+Paste the two functions from [Smooth.py](Smooth.py) into your script. You need a variable holding the geometry to smooth, then simply call:
 
 ```py
 smooth_points(poly_obj)
@@ -26,7 +26,7 @@ Parameters:
 |points_indices_to_smooth|list[int]|*Optional* - The indices of the points to smooth. Pass None or an empty array to smooth everything.|[]|
 |neighbor|c4d.utils.Neighbor|*Optional* - The Neighbor object used to identify connected vertices. If None is passed it will be created and initialized in the function.|None|
 
-See Sample.py for a complete sample.
+See [Sample.py](Sample.py) for a complete sample.
 
 # Disclaimer
 
