@@ -1,4 +1,4 @@
-# Paste this in a Python Generator.
+# Paste this into a Python Generator.
 
 import c4d
 
